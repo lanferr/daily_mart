@@ -1,0 +1,120 @@
+@font-face {
+	font-family: headfont;
+	src: url(headfont.ttf);
+}
+@font-face {
+	font-family: rocks;
+	src: url(rocks.otf);
+}
+body {
+	margin: 0;
+}
+
+
+.flex {
+	display: flex;
+}
+.m-l-0 {
+	margin-left: 0;
+}
+
+
+.headtext {
+	color: white;
+	font-weight: bold;
+	font-family: headfont;
+	font-size: 20px;
+	padding-top: 15px;
+	text-shadow: 2px 2px 2px black, 0 0 1em black
+}
+.banner {
+	height:600px;
+	background-image: url(woodbg.jpg);
+	background-size: 100% 100%;
+	text-align: center;
+	padding-top: 150px;
+}
+
+
+.content {
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+.text {
+	font-size: 25px;
+	font-family: helvetica;
+	margin-top: 100px;
+}
+.doggie {
+	width: 440px;
+	height: 450px;
+}
+
+
+.parent {
+	width: 1120px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.block {
+	background-color: lightpink;
+}
+.child {
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 350px;
+	width: 350px;
+	text-align: center;
+}
+.pic {
+	width: 350px;
+	height: 350px;
+	transition: 1s;
+}
+.h3text {
+	margin-top: -170px;
+	opacity: 0;
+	font-family: rocks;
+}
+.pic:hover + .h3text {
+	opacity: 1;
+}
+.pic:hover{
+	opacity: 0;
+} 
+.paper {
+	height: 350px;
+	width: 250px;
+}
+
+
+.footer {
+	background-image: url(woodbg.jpg);
+	background-size: 100% 100%;
+	margin-top: 50px;
+}
+.link {
+	height: 100px;
+	width: 100px;
+}
+.links {
+	margin-top: 120px;
+}
+.addresses {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: rocks;
+	font-size: 16px;
+	margin-top: 50px;
+}
+
+.href {
+	color: black;
+}
